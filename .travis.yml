@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: KRWQdC+eNYKz9Dd6JRrXeavapqUZ5d83oNl1nW0icJNp9XYKAcpX97hTmkDOZHc52l2n/A/jcK53eIJ8UI+MGJZcADL9QRsj5G22VQ31aKZ486Dat6ZdlA/7PeYcrwUHBqtqx8uoqGY65dms9dGh3WHcQGTtYaciznx4kKVnZ6lnjRBCsDpQdF2Z9p51gE1G8B4m0NgoNDvJb0zBqCWvd9MOI/HGJu29jzd7n9KO6uiijHzbk998o3YwsRFfy/LVQZ+/gHqpJPttjHc+M0ij7FxQi/S7AR8QLH9DaZB8TkU2t7dOfO9Rr+Tq6CZxII5MMPfbrcSlp3QlmR54X6RzNJQWk61vdwA8bXfr/UTxgqh8kBV423Y3IWudHbpiKJIbfgV3mCWNI4A5Ab/zyilmFlZF+Miu5IJ/NPaBF8IV2oJ8zMTsMu7uWUd3oPcGzb0PRPTqhcNhREsCaAP+2iNpzQlNxqZhxXDdxINWzgVY9Gubli66dm0GfItEODmV0aNmhhaUTGdyMyH/Q+bkHszgoBMl1cHdfJZa0O1liEDO/EYePowZO9ajm8/2w+K4IDIIC1dyIUCHFgxJvJ3D0uOijlAz2rNfHPEwUV4/4mlmeF+FZZ/dFCEHSz8jNK5lJXKz7rcfJwwUaiG2PzsWn34aVZ83pGP66Ofzf1UAUHlP5lk=
+  app: sheltered-caverns-73315
+  on:
+    repo: rk-codes/blog-app-mongoose-challenge-solution
